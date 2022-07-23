@@ -1,0 +1,100 @@
+ .employees-info-main-container {
+    width: 100%;
+    /* height: 100vh; */
+    padding: 15px;
+    background-color: #cfcfcf;
+}
+
+/* .employees-info-main-container .employees-info-body {
+    background-color: #ff0;
+} */
+
+.employees-info-main-container .employees-info-body .employees-info-row {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 15px;
+    border-radius: 15px;
+    margin: 10px 0;
+}
+
+.employees-info-main-container
+    .employees-info-body
+    .employees-info-row
+    .employees-info-title,
+.employees-info-main-container
+    .employees-info-body
+    .employees-info-row
+    .employees-info-contact
+    .contact-text,
+.employees-info-main-container
+    .employees-info-body
+    .employees-info-row
+    .employees-info-contact
+    .employee-info-name,
+.employees-info-main-container
+    .employees-info-body
+    .employees-info-row
+    .view-details {
+    font-family: "sans sarif";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.employees-info-main-container
+    .employees-info-body
+    .employees-info-row
+    .employees-info-contact
+    .contact-text {
+    font-weight: 700;
+}
+
+.employees-info-main-container
+    .employees-info-body
+    .employees-info-row
+    .view-details {
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    background-color: red;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.employees-info-main-container
+    .employees-info-body
+    .employees-info-row
+    .view-details:hover {
+    transform: scale(1.05) translateY(-2px);
+    opacity: 0.9;
+    transition: all 0.3s ease-in-out;
+}
+
+.employees-info-main-container .employees-info-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+.employees-info-main-container .employees-info-footer .pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+}
+
+.employees-info-main-container .employees-info-footer .pagination div {
+    cursor: pointer;
+}
+
+.employees-info-main-container
+    .employees-info-footer
+    .pagination
+    div.active-page {
+    background-color: #f00;
+    padding: 6px 10px;
+}

@@ -1,0 +1,28 @@
+.container-1{
+    background-color:white;
+    height: 400px;
+    border-radius: 25px;
+    padding: 35px 35px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin: 0 15px;
+    
+   
+}
+.person-info{
+    display: flex;
+    justify-content: stretch;
+    margin-top: 25px;
+    /* background-color: red; */
+}
+p{
+    margin-top: 15px;
+}
+.text{
+font-weight: bolder;
+}
+.info-2 {
+    margin-left: 150px;
+}
+ .info-1{
+    font-weight: bolder;
+}
